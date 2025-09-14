@@ -50,10 +50,9 @@ Beats Music is a comprehensive music streaming platform that offers users an imm
 
 ### 👤 User Features
 - **User Registration & Login** - Secure account creation and authentication
-- **Social Login** - Sign in with Google, GitHub, or Facebook
+- **Social Login** - Sign in with Google
 - **User Profile** - Personalized user experience
 - **Remember Me** - Persistent login sessions
-- **Password Recovery** - Forgot password functionality
 
 ### 🎨 Interface Features
 - **Dark Theme** - Beautiful dark mode interface
@@ -112,48 +111,41 @@ Beats Music is a comprehensive music streaming platform that offers users an imm
 
 ## 📷 Screenshots
 
-<!-- Add your screenshots here -->
-> **Note**: Please add screenshots of your application in the following format:
-
 ### 🏠 Home Page
-<!-- ![Home Page](./screenshots/home-page.png) -->
-*The main landing page showcasing the multi-universal music playlist interface*
+![Home Page](./screenshots/home-page.png)
+*The main landing page showcasing "THE MUTIL-UNIVERSAL MUSIC PLAYLIST" with heart-shaped waveform visualization and new releases section*
 
 ### 🔐 Authentication Pages
-<!-- ![Login Page](./screenshots/login-page.png) -->
-*Modern login interface with social authentication options*
 
-<!-- ![Register Page](./screenshots/register-page.png) -->
-*User-friendly registration form*
+#### Login Page
+![Login Page](./screenshots/login-page.png)
+*Modern "Welcome Back" login interface with social authentication options (Google, Facebook, GitHub) and Coachella festival promotion*
 
-### 🎵 Music Player
-<!-- ![Music Player](./screenshots/music-player.png) -->
-*Featured music player with heart-shaped waveform visualization*
+#### Registration Page  
+![Register Page](./screenshots/register-page.png)
+*"Open New Account" registration form with username, email, password fields and social login options*
 
 ### 🎧 Play Page
-<!-- ![Play Page](./screenshots/play-page.png) -->
-*Comprehensive music interface with featured songs, recently played, and charts*
+![Play Page](./screenshots/play-page.png)
+*Comprehensive music interface featuring "ONE OF THE GIRL" by The Weeknd with full-screen player, recently played section, top charts, and playlists*
 
-### 🔍 Search Interface
-<!-- ![Search Page](./screenshots/search-page.png) -->
-*Advanced search functionality with results and recommendations*
+### 🔍 Music Library & Search
+![Search Page](./screenshots/search-page.png)
+*"All Songs" interface with comprehensive music listings, search functionality, "Top 100 New Songs" section, and integrated music player at bottom*
 
-### 📱 Mobile Views
-<!-- ![Mobile View](./screenshots/mobile-view.png) -->
-*Responsive design optimized for mobile devices*
-
-**To add screenshots:**
-1. Take screenshots of your application
-2. Create a `screenshots` folder in your project root
-3. Add your screenshot files
-4. Uncomment and update the image paths above
+**Screenshots showcase:**
+- ✨ **Dark Theme Design** - Sleek black interface with blue accent colors
+- 🎵 **Heart Waveform Player** - Unique audio visualization on home page  
+- 🎧 **Full-Featured Player** - Complete playback controls with progress bars
+- 📱 **Responsive Layout** - Optimized grid layouts and navigation
+- 🔐 **Social Authentication** - Multiple login options with modern UI
+- 🎪 **Event Integration** - Coachella festival ticket promotion
+- 📊 **Music Discovery** - Top charts, new releases, and recently played sections
 
 ## 🌐 Live Demo
 
 <!-- Replace with your actual demo URL -->
-🚀 **[View Live Demo](https://your-demo-url.vercel.app)**
-
-> **Note**: Replace the URL above with your actual deployed application URL
+🚀 **[View Live Demo](https://beats-music-assignment.vercel.app/)**
 
 ### Demo Credentials
 - **Email**: demo@beatsmusic.com
@@ -164,9 +156,7 @@ Beats Music is a comprehensive music streaming platform that offers users an imm
 ## 📂 Repository
 
 <!-- Replace with your actual repository URL -->
-📦 **[GitHub Repository](https://github.com/yourusername/beats-music-register)**
-
-> **Note**: Replace the URL above with your actual GitHub repository URL
+📦 **[GitHub Repository](https://github.com/Pamitha-Pankaja/Beats-Music-Assignment.git)**
 
 ## ⚡ Quick Start
 
@@ -174,8 +164,8 @@ Get up and running in minutes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/beats-music-register.git
-cd beats-music-register
+git clone https://github.com/Pamitha-Pankaja/Beats-Music-Assignment.git
+cd beats-music-assignment
 
 # Install dependencies
 npm install
@@ -205,8 +195,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/beats-music-register.git
-   cd beats-music-register
+   git clone https://github.com/Pamitha-Pankaja/Beats-Music-Assignment.git
+   cd beats-music-assignment
    ```
 
 2. **Install Dependencies**
@@ -269,7 +259,7 @@ FIREBASE_ADMIN_PROJECT_ID=your_project_id
 
 2. **Configure Authentication**
    - Enable Email/Password authentication
-   - Configure OAuth providers (Google, GitHub, Facebook)
+   - Configure OAuth providers (Google)
    - Set up authorized domains
 
 3. **Set up Firestore**
@@ -344,7 +334,7 @@ npm run test:coverage
 ## 🗂️ Project Structure
 
 ```
-beats-music-register/
+beats-music-assignment/
 ├── app/                          # Next.js App Router
 │   ├── globals.css              # Global styles
 │   ├── layout.tsx               # Root layout
@@ -382,19 +372,16 @@ beats-music-register/
 ### Supported Methods
 - **Email/Password** - Standard authentication
 - **Google OAuth** - Social login
-- **GitHub OAuth** - Developer-focused login
-- **Facebook OAuth** - Social platform integration
 
 ### Security Features
 - **Persistent Sessions** - Remember me functionality
-- **Password Recovery** - Forgot password flow
 - **Protected Routes** - Authentication-required pages
 - **Session Management** - Automatic session handling
 
 ### Authentication Flow
 1. User visits protected route
 2. Redirected to login if not authenticated
-3. Authentication via email/password or social provider
+3. Authentication via email/password or Google OAuth
 4. Redirect to intended destination
 5. Persistent session management
 
@@ -422,7 +409,7 @@ We welcome contributions! Please follow these steps:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/yourusername/beats-music-register.git
+   git clone https://github.com/Pamitha-Pankaja/Beats-Music-Assignment.git
    ```
 
 2. **Create a Feature Branch**
@@ -465,31 +452,7 @@ We welcome contributions! Please follow these steps:
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Beats Music
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is part of **Craftit Ai – Front End Engineer Assignment** and is intended for evaluation purposes.
 
 ## 🙏 Acknowledgments
 
@@ -521,6 +484,4 @@ SOFTWARE.
 **Made with ❤️ by the Beats Music Team**
 
 *For support or questions, please open an issue or contact us at support@beatsmusic.com*
-
-
 
